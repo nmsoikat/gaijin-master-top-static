@@ -83,9 +83,11 @@ span.sn {
   animation: upBtnAnimation;
   animation: 1s linear 1s infinite alternate upBtnAnimation;
 }
-.up a {
-  text-decoration: none;
-  display: inline-block;
+.up:hover {
+  cursor: pointer;
+}
+.up span {
+  display: block;
   background-color: #ffffff;
   border-radius: 15px;
   width: 50px;
@@ -93,7 +95,7 @@ span.sn {
   text-align: center;
   border: 3px solid #032f97;
 }
-.up a img {
+.up span img {
   transform: rotate(-90deg);
   height: 18px;
   margin-top: 13px;
